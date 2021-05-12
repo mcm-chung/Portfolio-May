@@ -6,25 +6,190 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b1a8763908.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header> May Chung</header>
-  <h1>Junior Web Developer</h1>
 
-  <div class="container">
-    <nav>
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">skills</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
+  <!-- LANDING PAGE -->
+
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-links">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" nav__link>about</a></li>
+          <li class="nav__item"><a href="#" nav__link>skills</a></li>
+          <li class="nav__item"><a href="#" nav__link>projects</a></li>
+          <li class="nav__item"><a href="#" nav__link>contact</a></li>
+        </ul>
+      </div>
     </nav>
-  </div>
-
 
   
+    <h1 class="header__heading">May Chung</h1>
+    <h2 class="header__subheading">Junior Web Developer</h2>
+
+  </header>
+
+  <!-- ABOUT ME PAGE -->
+
+  <section>
+    <div class="about-me-title">
+      <h3>about me</h3>
+    </div>
+    
+    <div class="about-me-image">
+      <img src="about-me-image.jpg" alt="About Me">
+    </div>
+
+    <p class="about-me-para">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in."
+    </p>
+
+    
+
+    <div class="box-design1">
+      <div class="grey-box"></div>
+      <div class="brown-box"></div>
+      <div class="purple-box"></div>
+    </div>
+
+  </section>
+
+  <!-- SKILLS PAGE -->
+
+  <section class="skills">
+
+      <h3 class="skills__title">skills</h3>
+      <div class="skills__grid">
+        <div class="fab fa-html5 skills__html"></div>
+        <div class="fab fa-css3 skills__css"></div>
+        <div class="fab fa-js skills__js"></div>
+        <div class="fab fa-html5 skills__4"></div>
+        <div class="fab fa-css3 skills__5"></div>
+        <div class="fab fa-js skills__6"></div>
+        <div class="fab fa-html5 skills__7"></div>
+        <div class="fab fa-css3 skills__8"></div>
+        <div class="fab fa-js skills__9"></div>
+
+      </div>
+
+      <div class="skills__grid__name">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p> JAVASCRIPT</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p> JAVASCRIPT</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p> JAVASCRIPT</p>
+      </div>
+      
+
+  </section>
+
+  <section class="border">
+    <div class="border__brown-box2"></div>
+    <div class="border__grey-box2"></div>
+    <div class="border__purple-box2"></div>
+    <div class="border__brown-box3"></div>
+    <div class="border__grey-box3"></div>
+    <div class="border__purple-box3"></div>
+  </section>
+
+
+  <!-- PROJECT PAGE -->
+
+
+  <section class=project>
+
+    <div class="project__title">
+      <h3>projects</h3>
+      <p class="project__intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+
+    <div class="project__container">
+
+    <div class="project__example">
+        <img src="./project1.jpg" alt="Project 1">
+          <div class="layer">
+            <h4 class="project__name">PROJECT 1</h4>
+            <p class="project__examplepara">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          
+              <br>
+              <br>
+              <a class ="project__link" href="">Find out more</a>
+              <span class="fas fa-long-arrow-alt-right project__icon"></span>
+             
+            </p>
+          </div> 
+
+    </div>
+
+    <div class="project__example">
+      <img src="./project2.jpg" alt="Project 2">
+        <div class="layer">
+          <h4 class="project__name">PROJECT 2</h4>
+          <p class="project__examplepara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            <br>
+            <br>
+              <a class ="project__link" href="">Find out more</a>
+              <span class="fas fa-long-arrow-alt-right project__icon"></span>
+
+          </p>
+        </div> 
+    </div>
+
+      <div class="project__example">
+        <img src="./project3.jpg" alt="Project 3">
+          <div class="layer">
+            <h4 class= "project__name">PROJECT 3</h4>
+            <p class="project__examplepara">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+              <br>
+              <br>
+              <a class ="project__link" href="">Find out more</a>
+              <span class="fas fa-long-arrow-alt-right project__icon"></span>
+
+            </p>
+          </div> 
+
+
+      </div>
+    </div>
+
+  </div>
+
+  </section>
+
+
+
+  <!-- CONTACT ME PAGE -->
+
+  <section class="contact">
+
+    <div class="contact__title">
+        <h3>contact</h3>
+    <!-- </div> -->
+    <!-- <div class="contact__container"></div> -->
+      <div class= "contact__icon">
+        <div class="fab fa-linkedin-in contact__linkedin"></div>
+        <div class="fab fa-github contact__github"></div>
+        <div class="far fa-envelope contact__email"></div>
+      </div>
+    <!-- </div> -->
+  </section>
+
+
 </body>
+
 </html>
+
